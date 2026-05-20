@@ -186,29 +186,6 @@ Password: 1234
 
 ---
 
-## Evaluation Checklist
-
-| Criteria | Marks | Status |
-|----------|-------|--------|
-| Frontend UI | 25 | Done |
-| Backend Functionality | 25 | Done |
-| API Integration | 20 | Done |
-| Code Quality | 15 | Done |
-| Validation & Error Handling | 10 | Done |
-| Documentation | 5 | Done |
-
-### Bonus Features
-
-| Feature | Status |
-|---------|--------|
-| Search functionality | Done |
-| Edit feedback | Done |
-| Dark mode | Done |
-| Docker setup | - |
-| Deployment | - |
-
----
-
 ## Author
 
 Vishnuha Sivanandarajah
