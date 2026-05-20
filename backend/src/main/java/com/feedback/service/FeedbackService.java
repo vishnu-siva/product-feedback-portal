@@ -2,16 +2,18 @@ package com.feedback.service;
 
 import com.feedback.model.Feedback;
 import com.feedback.repository.FeedbackRepository;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-@RequiredArgsConstructor
 public class FeedbackService {
 
     private final FeedbackRepository repository;
+
+    public FeedbackService(FeedbackRepository repository) {
+        this.repository = repository;
+    }
 
     public List<Feedback> getAll() {
         return repository.findAll();
