@@ -23,7 +23,7 @@ A full-stack web application where users can submit, view, edit, and manage prod
 - Edit feedback
 - Delete feedback
 - Search feedbacks by name or product
-- Dark mode toggle
+- Dark mode toggle (Dashboard + Search)
 - Responsive design (mobile friendly)
 - Global error handling
 - Bean validation on backend
@@ -183,6 +183,9 @@ Password: 1234
 
 ### Edit Feedback
 ![Edit Feedback](screenshots/edit-feedback.png)
+
+### Dark Mode
+![Dark Mode](screenshots/darkmode.png)
 
 ---
 
