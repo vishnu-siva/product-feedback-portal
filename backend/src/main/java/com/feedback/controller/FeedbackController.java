@@ -3,7 +3,6 @@ package com.feedback.controller;
 import com.feedback.model.Feedback;
 import com.feedback.service.FeedbackService;
 import jakarta.validation.Valid;
-import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,10 +12,13 @@ import java.util.List;
 @RestController
 @RequestMapping("/feedbacks")
 @CrossOrigin(origins = "http://localhost:5173")
-@RequiredArgsConstructor
 public class FeedbackController {
 
     private final FeedbackService service;
+
+    public FeedbackController(FeedbackService service) {
+        this.service = service;
+    }
 
     @GetMapping
     public ResponseEntity<List<Feedback>> getAll(
